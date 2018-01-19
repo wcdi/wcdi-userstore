@@ -11,8 +11,8 @@ func init() {
 
 func newServerCommand() *cobra.Command {
 	cmd := &cobra.Command{
-		Use:   "server",
-		Short: "server command",
+		Use:   "serve",
+		Short: "serve command",
 		Run: func(cmd *cobra.Command, args []string) {
 			cmd.Help()
 		},
